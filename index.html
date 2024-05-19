@@ -1,0 +1,1968 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+  integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="boxicons.min.css">
+
+    <!-- Title  -->
+    <title>Profil Kelas - X PPLG 3</title>
+
+    <!-- magnific-popup css cd link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Fonts  -->
+    
+    <!-- Style -->
+    <link  rel="stylesheet" href="css/style.css">
+    <!-- Style -->
+
+    <!-- Icon  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Icon  -->
+
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/x-icon" href="/logo/Mode terang.svg">
+
+    <!-- Scroll Js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+</head>
+
+
+
+<body>
+    <!-- navbar start -->
+    <nav>
+      <ul class='nav-bar'>
+          <li class='logo'><a href='#'><img src='logo/Mode terang.png' class="logo-terang"/></a></li>
+          
+          <input type='checkbox' id='check' />
+          <span class="menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#profile">Profil</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="main.html">Login</a></li>
+              <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+          </span>
+          <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+          <img class="moon-png" src="image/monn1.png" id="icon">
+      </ul>
+      <!-- Script -->
+      <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function() {
+        document.body.classList.toggle("dark-theme");
+         if (document.body.classList.contains("dark-theme")){
+        icon.src = "image/sun.png";
+        }else{
+        icon.src = "image/monn1.png";
+    }
+}
+        </script>
+
+      <div class="navbar-extra">
+        <a href="#" id="menu"><i class='bx x-menu'></i></a>
+    </div>
+  </nav>
+     <!-- Navbar End  -->
+
+     <!-- Home section start -->
+     <section class="hero" id="home">
+
+        <div class="slider">
+            <!-- list Items -->
+            <div class="list">
+                <div class="item active">
+                    <img src="image/slide1.jpg">
+                    <div class="content">
+                        <p>Hello! Welcome to</p>
+                        <h2>Class <span>X PPLG 3</span></h2>
+                        <p>
+                            Silahkan kunjungi dan melihat lihat kami 
+                            melalui website yang telah kami sediakan.
+        
+                        </p>
+                        <br>
+                        <h4>Geser untuk selengkapnya</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/room.jpg">
+                    <div class="content">
+                        <p>After MPLS</p>
+                        <h2>Ter<span>bentuk</span>nya sebuah kelas</h2>
+                        <p>
+                            Awal bagi kami untuk membentuk sebuah ikatan 
+                            pertemanan dalam sebuah lingkungan berupa kelas.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/slidep5.jpg">
+                    <div class="content">
+                        <p>During</p>
+                        <h2>Kegiatan <span>P5</span></h2>
+                        <p>
+                            Inti dari P5 adalah bahwa kebersamaan dan kekompakan
+                            mampu menciptakan kekuatan bagi suatu
+                            kelompok atau lingkungan kelas.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/img4.jpg">
+                    <div class="content">
+                        <p>Play & Learn</p>
+                        <h2>Bermain <span>Dan </span>Belajar
+                        </h2>
+                        <p>
+                            Keseimbangan sangat penting bagi kami. Momen ini juga
+                            tidak kalah penting bagi kami sendiri, karena dari sebuah kata
+                            bermain, kami mendapatkan sebuah pelajaran juga.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/slidepjbl.png">
+                    <div class="content">
+                        <p>PJBL And</p>
+                        <h2>Class<span>meet</span>
+                            2023</h2>
+                        <p>
+                            Akhir dalam misi pertama di semester ini yaitu PJBL, Walaupun 
+                            terlihat sulit, kami menghadapinya, serta mendapatkan hasil yang memuaskan dan diakhiri 
+                            kegiatan yang menyenangkan yaitu "Classmeet"
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- button arrows -->
+            <div class="arrows">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <!-- thumbnail -->
+            <div class="thumbnail">
+                <div class="item active">
+                    <img src="image/slide1.jpg">
+                    <div class="content">
+                        Introduction
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/room.jpg">
+                    <div class="content">
+                        After MPLS
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/slidep5.jpg">
+                    <div class="content">
+                        P5 2023
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/img4.jpg">
+                    <div class="content">
+                        Play & Learn
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/slidepjbl.png">
+                    <div class="content">
+                        Final 
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+     </section>
+     <!-- Home section end -->
+
+     <!-- Pembuka section start -->
+     <section id="pembuka" class="pembuka">
+      
+        <h2 class="h2-pembuka">Kata <span>Pembuka</span></h2>
+
+        <div class="row">
+            <div class="pembuka-img">
+                <img src="imgst/4.jpg" alt="kata pembuka">
+                <div class="biodata">
+                </div>
+            </div>
+            <div class="content">
+                <h3>Kenapa anda  harus <span>mengunjungi website ini?</span></h3>
+                <p>Menurut pendapat kami, fitur yang kami sediakan mungkin akan membuat anda tertarik untuk melihat lihat disini</p>
+                <h3> Walikelas Kami</h3> 
+                <p>Kepada Ibu Choiriyah, .......... kami ucapkan terima kasih karena telah menjadi walikelas kami</p>
+            </div>
+        </div>
+
+     </section>
+     <!-- Scrol jS -->
+     <script>
+      ScrollReveal({
+        reset: true,
+        distance: '60px',
+        duration: 3500,
+        delay: 400
+      });
+      ScrollReveal().reveal('.pembuka-img', { delay: 500, origin: 'left' });
+      ScrollReveal().reveal('.content', { delay: 500, origin: 'right' });
+      ScrollReveal().reveal('.h2-pembuka', { delay: 500, origin: 'bottom', interval: 200 });
+      </script>
+<!-- Scrol js end -->
+
+     <!-- Pembuka section end -->
+
+     <!-- Profile section start -->
+    <section id="profile" class="profile">
+    <div class="profile-curve">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4B6382" fill-opacity="1" d="M0,128L15,117.3C30,107,60,85,90,85.3C120,85,150,107,180,112C210,117,240,107,270,90.7C300,75,330,53,360,48C390,43,420,53,450,96C480,139,510,213,540,250.7C570,288,600,288,630,272C660,256,690,224,720,224C750,224,780,256,810,261.3C840,267,870,245,900,229.3C930,213,960,203,990,213.3C1020,224,1050,256,1080,261.3C1110,267,1140,245,1170,218.7C1200,192,1230,160,1260,138.7C1290,117,1320,107,1350,128C1380,149,1410,203,1425,229.3L1440,256L1440,0L1425,0C1410,0,1380,0,1350,0C1320,0,1290,0,1260,0C1230,0,1200,0,1170,0C1140,0,1110,0,1080,0C1050,0,1020,0,990,0C960,0,930,0,900,0C870,0,840,0,810,0C780,0,750,0,720,0C690,0,660,0,630,0C600,0,570,0,540,0C510,0,480,0,450,0C420,0,390,0,360,0C330,0,300,0,270,0C240,0,210,0,180,0C150,0,120,0,90,0C60,0,30,0,15,0L0,0Z"></path></svg>
+    </div>
+    <div>
+      
+    </div>
+   
+      <div class="typewrite">
+        <h1>Keep <span></span></h1>
+      </div>
+
+        <!-- Card Start -->
+       <!-- Baris 1 -->
+       <div class="container flow-content">
+        <h2 class="section-title">Our Member</h2>
+        <ul role="list" class="grid">
+          <li>
+            <article class="card" data-visible="false">
+              <div class="card__front flow-content">
+                <img class="card__img mx-auto" src="murid/ahmad.jpg" />
+                <div class="flow-content" data-spacing="sm">
+                  <p class="card__name">Ahmad Farel Riyanto</p>
+                  <p class="card__position">Siswa</p>
+                </div>
+              </div>
+              <div class="card__back flow-content">
+                <p class="card__name">Ahmad</p>
+                <q>Yang penting makan</q>
+                <a href="portofolio/ahmad/ahmad.html">Klik portofolio</a>
+                <ul role="list" class="card__social flex-group">
+                  <li>
+                    <a href="https://www.instagram.com/rellx_ajja?igsh=bnE4ajJsYzFhNnll">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-spotify"></i>
+                    </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <i class="fa-brands fa-tiktok"></i>
+                      </a>
+                  </li>
+                </ul>
+              </div>
+              <footer class="card__footer">
+                <button data-card-controller class="card__toggle">
+                  <i class="fa-solid fa-plus card__toggle-icon"></i>
+                </button>
+              </footer>
+            </article>
+          </li>
+          <li>
+            <article class="card" data-visible="false">
+              <div class="card__front flow-content">
+                <img class="card__img mx-auto" src="/img/flat-mountains.png" />
+                <div class="flow-content" data-spacing="sm">
+                  <p class="card__name">Amara Silvia Anggreani</p>
+                  <p class="card__position">Ketua Kelas</p>
+                </div>
+              </div>
+              <div class="card__back flow-content">
+                <p class="card__name">Amara</p>
+                <q>Jika sesuatu yang kau senangin tidak terjadi, maka senangin lah apa yang kau senangin.</q>
+                <a href="portofolio/amara/amara.html">Klik portofolio</a>
+                <ul role="list" class="card__social flex-group">
+                  <li>
+                    <a href="https://www.instagram.com/_amarasva?igsh=MXR3Mjh5YWZ5MHNoaQ==">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-spotify"></i>
+                    </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <i class="fa-brands fa-tiktok"></i>
+                      </a>
+                  </li>
+                </ul>
+              </div>
+              <footer class="card__footer">
+                <button data-card-controller class="card__toggle">
+                  <i class="fa-solid fa-plus card__toggle-icon"></i>
+                </button>
+              </footer>
+            </article>
+          </li>
+          <li>
+            <article class="card" data-visible="false">
+              <div class="card__front flow-content">
+                <img class="card__img mx-auto" src="murid/sico.jpg"/>
+                <div class="flow-content" data-spacing="sm">
+                  <p class="card__name">Ananda Sico Pratama</p>
+                  <p class="card__position">Siswa</p>
+                </div>
+              </div>
+              <div class="card__back flow-content">
+                <p class="card__name">Sico</p>
+                <q>Yang penting hidup.</q>
+                <a href="portofolio/ananda sico/sico.html">Klik portofolio</a>
+                <ul role="list" class="card__social flex-group">
+                  <li>
+                    <a href="https://www.instagram.com/ambatvkam_?igsh=ZjhpYjZlOGJoandk">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-spotify"></i>
+                    </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <i class="fa-brands fa-tiktok"></i>
+                      </a>
+                  </li>
+                </ul>
+              </div>
+              <footer class="card__footer">
+                <button data-card-controller class="card__toggle">
+                  <i class="fa-solid fa-plus card__toggle-icon"></i>
+                </button>
+              </footer>
+            </article>
+          </li>   
+        </ul>
+      </div>
+
+     
+
+
+      <!-- Baris 2 -->
+          <div class="container flow-content">
+            <h2 class="section-title"></h2>
+            <ul role="list" class="grid">
+              <li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="/img/radiant-gradient.png" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Audrey Baby Aurellia</p>
+                      <p class="card__position">Siswa</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Audrey</p>
+                    <q>Always be a better person</q>
+                    <a href="portofolio/audrey/audrey.html">Klik portofolio</a>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://www.instagram.com/audry.bby?igsh=ZnN3NnlwMXhwOGp2">
+                          <i class="fa-brands fa-instagram"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-spotify"></i>
+                        </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <i class="fa-brands fa-tiktok"></i>
+                          </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+              </li>
+              <li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="murid/fauzi.jpeg" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Azfer Jausyaq Fauzi</p>
+                      <p class="card__position">Siswa</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Fauzi</p>
+                    <q>Jawir</q>
+                    <a href="portofolio/azfer/azfer.html">Klik portofolio</a>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://www.instagram.com/mangzippp?igsh=NGpkZ2l5aGltc2Jw">
+                          <i class="fa-brands fa-instagram"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-spotify"></i>
+                        </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <i class="fa-brands fa-tiktok"></i>
+                          </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+              </li>
+              <li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="/img/slanted-gradient.png"/>
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Deviana Alma Damayanti</p>
+                      <p class="card__position">Siswa</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Devi</p>
+                    <q>-</q>
+                    <a href="portofolio/deviana/deviana.html">Klik portofolio</a>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://www.instagram.com/ducyxell_?igsh=NDJndWQxcXdlOGl2">
+                          <i class="fa-brands fa-instagram"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-spotify"></i>
+                        </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <i class="fa-brands fa-tiktok"></i>
+                          </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+              </li>   
+            </ul>
+          </div>
+
+          <!-- Baris 3 -->
+           <div class="container flow-content">
+              <h2 class="section-title"></h2>
+              <ul role="list" class="grid">
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/radiant-gradient.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">El Rakkai Omar Wahid</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">El</p>
+                      <q>Belajarlah sampai kamu menyadari bahwa kamu itu bodoh</q>
+                      <a href="portofolio/el rakkai/el.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/_rakkai?igsh=MXJ5eTU3NncwczljaA==">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/flat-mountains.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Fadhil Al Ghaza Aswdira</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Al</p>
+                      <q>Jangan pernah makan upil yang sama lagi.</q>
+                      <a href="portofolio/fadhil gaza/fadhil.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/fadhilghaza?igsh=MWRjcXNmcTNvOHc1">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/slanted-gradient.png"/>
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Jonathan Iatsa Heroku Augta</p>
+                        <p class="card__position">Wakil Ketua</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Jonathan</p>
+                      <q>Cinta sementara, MU selamanya.</q>
+                      <a href="portofolio/jonathan/jonathan.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/nathanfansemyu?igsh=NzVleTU3cGx5MXJw">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>   
+              </ul>
+            </div>
+
+            <!-- Baris 4 -->
+           <div class="container flow-content">
+              <h2 class="section-title"></h2>
+              <ul role="list" class="grid">
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/radiant-gradient.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Mahesa Valentdika Putra M</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Mahes</p>
+                      <q>God know the when, the why, the how. So show up and let him do the rest.</q>
+                      <a href="portofolio/mahesa/mahesa.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/mahesa.05?igsh=MXNibHZiZWY1NWVucQ==">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/flat-mountains.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Marcella Destia Mega</p>
+                        <p class="card__position">Sekertaris</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Marcella</p>
+                      <q>Jika kamu tidak dapat terbang, maka berlarilah.</q>
+                      <a href="portofolio/marcella/marcella.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/arcelw_?igsh=MTZqbnNzdGV1bnlyOA==">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/slanted-gradient.png"/>
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Maylla Putri Lovelea</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Maylla</p>
+                      <q>Kebaikan adalah bahasa universal.</q>
+                      <a href="portofolio/mayla/mayla.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/llvelea?igsh=MWM0cmpjMHNxeHd6YQ==">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>   
+              </ul>
+            </div>
+
+            <!-- Baris 5 -->
+           <div class="container flow-content">
+              <h2 class="section-title"></h2>
+              <ul role="list" class="grid">
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/radiant-gradient.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Mochammad Adrik Fadil Falaq</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Fadil</p>
+                      <q>-</q>
+                      <a href="portofolio/mochammad adrik/adrik.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/fl.faadilll?igsh=MWFvNHlneTNicGIzbg==">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/flat-mountains.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Muhammad Darrel Rabbani</p>
+                        <p class="card__position">Bendahara</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Darrel</p>
+                      <q>Mencintaimu adalah siksa, berhenti mencintaimu adalah derita</q>
+                      <a href="portofolio/muhammad darel/darel.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/reltslikescars?igsh=MTJjOXNkMTl3amJqZw==">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="murid/radit.jpeg"/>
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Muhammad Raditya Nugroho</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Radit</p>
+                      Jangan pernah engkau melakukan keburukan</q>
+                      <a href="portofolio/muhammad radit/radit.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/ryaa0125?igsh=aDhncG9qNDlsM2M1">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>   
+              </ul>
+            </div>
+
+            <!-- Baris 6 -->
+           <div class="container flow-content">
+              <h2 class="section-title"></h2>
+              <ul role="list" class="grid">
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/radiant-gradient.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Nabilla Putri Rachmawati</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Bila</p>
+                      <q>Trying hard.</q>
+                      <a href="portofolio/nabilla/nabilla.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/nabillaaap_?igsh=cmgxNGI1YTdpamIw">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/flat-mountains.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Najiya Rizqi</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Yaya</p>
+                      <q>To be or not to be; that's the question</q>
+                      <a href="portofolio/najiya yaya/yaya.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/srplugs?igsh=YTZtMXl6YW8wanJp">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/slanted-gradient.png"/>
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Natasya Dewi Puspita Sari</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Tasya</p>
+                      <q>Bersyukur atas yang ada, raih yang belum</q>
+                      <a href="portofolio/natasya dewi/natasya.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/tcxzzy____?igsh=MTVsejF5Y2N3YzRiaQ==">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>   
+              </ul>
+            </div>
+
+            <!-- Baris 7 -->
+           <div class="container flow-content">
+              <h2 class="section-title"></h2>
+              <ul role="list" class="grid">
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/radiant-gradient.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Octavia Anindyta Budi Utama</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Octa</p>
+                      <q>Percuma jadi pintar kalau untuk menggangap yang lain bodoh.</q>
+                      <a href="portofolio/octavia/octavia.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/dnzuavyl?igsh=MWtwc3Y0NzBzMGV3ZA==">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/flat-mountains.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Rafa Irsyad Musyaffa</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Rafa</p>
+                      <q>Teruslah bernafas</q>
+                      <a href="portofolio/rafa irsyad/rafa.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/abu2musyaffa?igsh=MWZtYWF5YXA5NmpmcA==">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/slanted-gradient.png"/>
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Raihan Muhammad Latif</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Raihan</p>
+                      <q>Abstrak adalah kehidupan yang rahasia</q>
+                      <a href="portofolio/raihan/raihan.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/raihannn.l?igsh=MThmdzVzM2pjMHU3Yg==">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>   
+              </ul>
+            </div>
+
+            <!-- Baris 8 -->
+           <div class="container flow-content">
+              <h2 class="section-title"></h2>
+              <ul role="list" class="grid">
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/radiant-gradient.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Raisa Talita Sacharissa</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Raisa</p>
+                      <q>Key to succes adlah kunci kesuksesan</q>
+                      <a href="portofolio/raisa/raisa.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/raaisac?igsh=ZXBkbXJscWI0aHBi">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="murid/raka.jpeg" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Raka Isyarafi Musyaffa</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Raka</p>
+                      <q>Aku jago Main PUBG</q>
+                      <a href="Portofolio/raka isyrafi/raka.html">Klik Portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/rakaisyrafi?igsh=aDJuNDM4am5tNjMx">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://open.spotify.com/user/31u2fsuv5y4mejt7xt5b2f6v5fsi?si=mWAzc7szTteEV76z_BlfdA&nd=1&dlsi=cdfa51e69ef34b54">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/slanted-gradient.png"/>
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Ratna Fitrianingrum</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Ratna</p>
+                      <q>Hidup itu bewarna-warni, akan naif sekali kalau kita berkata hitam itu jahat dan putih itu baik.</q>
+                      <a href="portofolio/ratna/ratna.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/yrtfnaaa?igsh=OXVsY2hnenpoY2Zq">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>   
+              </ul>
+            </div>
+
+            <!-- Baris 9 -->
+           <div class="container flow-content">
+              <h2 class="section-title"></h2>
+              <ul role="list" class="grid">
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/radiant-gradient.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Raul Daffa Ramadhan</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Raul</p>
+                      <q>Jangan tinggalkan sholat.</q>
+                      <a href="portofolio/raul daffa/raul.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/raul_daffa?igsh=MTVtcjd3Z2NwYmdhdg==">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/flat-mountains.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Rifqi Nabil Rafiudin</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Qiqi</p>
+                      <q>Yang bertuhan akan bertahan.</q>
+                      <a href="portofolio/rifqi nabil/rifqi.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/its_rifqi?igsh=MTA5NGJhanlycGZ1cw==">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/slanted-gradient.png"/>
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Satrya Arif Abdillah</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Satrya</p>
+                      <q>Bahkan orang bodoh pun bisa menjadi pintar apabila ia mau berusaha.</q>
+                      <a href="portofolio/satrya arif/satrya.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/strya23._?igsh=dmNtcmNoZzAzcmww">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>   
+              </ul>
+            </div>
+
+            <!-- Baris 10 -->
+           <div class="container flow-content">
+              <h2 class="section-title"></h2>
+              <ul role="list" class="grid">
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/radiant-gradient.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Setia Larasati</p>
+                        <p class="card__position">Bendara</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Laras</p>
+                      <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et dictum sem.</q>
+                      <a href="portofolio/setia larasati/setia.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/cloudiella._?igsh=MTYzZndpZmcwNnJieQ==">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/flat-mountains.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Shifa Lufna Apriliya</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Shifa</p>
+                      <q>Bersujudlah sampai terwujud</q>
+                      <a href="portofolio/shifa lufna/shifa.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/shifalfn_?igsh=eDkzNGtuNzJsY21r">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/slanted-gradient.png"/>
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Shofiyah Auliya</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Shofi</p>
+                      <q>Selalu jalani setiap proses dalam hidup dengan ikhtiar dan doa terbaik.</q>
+                      <a href="portofolio/shofia/shofi.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/shofiyahauliya?igsh=MXFjeW5zc2xtdHM0MA==">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>   
+              </ul>
+            </div>
+
+            <!-- Baris 11 -->
+           <div class="container flow-content">
+              <h2 class="section-title"></h2>
+              <ul role="list" class="grid">
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/radiant-gradient.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Tegar Adytia Nugroho</p>
+                        <p class="card__position">Sekertaris</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Teti</p>
+                      <q>Jangan memikirkan perkataan orang lain.</q>
+                      <a href="portofolio/tegar aditya/tegar.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/tegaraditya29_?igsh=d3R6Y2V5MWFlMzVx">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/flat-mountains.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Titis Wicaksono</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Titis</p>
+                      <q>Menjadi pribadi yang lebih baik.</q>
+                      <a href="portofolio/titis/titis.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/giga_xp?igsh=ZjkwMG1mYnAzNGpt">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/slanted-gradient.png"/>
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Velia Widi Aryani Putri</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Velia</p>
+                      <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et dictum sem.</q>
+                      <a href="portofolio/velia/velia.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/ylevvarp?igsh=ZDlocm10YWlyYzF6">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>   
+              </ul>
+            </div>
+
+            <!-- Baris 3 -->
+           <div class="container flow-content">
+              <h2 class="section-title"></h2>
+              <ul role="list" class="grid">
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="/murid/wildan.jpeg" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Wildan Akhtara Danish</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Wildan</p>
+                      <q>Invasi berawal dari seni.</q>
+                      <a href="portofolio/wildan/wildan.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/rody_zack?igsh=MTB6bDNvaHpodXB0bw==">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/flat-mountains.png" />
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Zakaria Akmal Pasha</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Zkuu</p>
+                      <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et dictum sem.</q>
+                      <a href="portofolio/zakaria/zakaria.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/ds.zkuu?igsh=eWdpOWJsdDVlMGo=">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>
+                <li>
+                  <article class="card" data-visible="false">
+                    <div class="card__front flow-content">
+                      <img class="card__img mx-auto" src="/img/slanted-gradient.png"/>
+                      <div class="flow-content" data-spacing="sm">
+                        <p class="card__name">Zaki Reza Santoso</p>
+                        <p class="card__position">Siswa</p>
+                      </div>
+                    </div>
+                    <div class="card__back flow-content">
+                      <p class="card__name">Jeki</p>
+                      <q>Hidup untuk bernafas.</q>
+                      <a href="portofolio/zaki/zaki.html">Klik portofolio</a>
+                      <ul role="list" class="card__social flex-group">
+                          <li>
+                            <a href="https://www.instagram.com/zaki_rezaa?igsh=ZWU1dDE5a2E5M3pz">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="fa-brands fa-spotify"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <footer class="card__footer">
+                      <button data-card-controller class="card__toggle">
+                        <i class="fa-solid fa-plus card__toggle-icon"></i>
+                      </button>
+                    </footer>
+                  </article>
+                </li>   
+              </ul>
+            </div>
+    </section>
+      <!-- Profile section End -->
+
+      <script>
+        ScrollReveal({
+          reset: true,
+          distance: '60px',
+          duration: 3500,
+          delay: 400
+        });
+        ScrollReveal().reveal('.h2-profile', { delay: 500, origin: 'right' });
+        ScrollReveal().reveal('.typewrite', { delay: 500, origin: 'top' });
+        ScrollReveal().reveal('.section-title', { delay: 500, origin: 'bottom', interval: 200});
+        ScrollReveal().reveal('.grid', { delay: 500, origin: 'bottom', interval: 200});
+
+        </script>
+
+      <!-- Gallery Section Start -->
+      <section id="gallery" class="gallery">
+        <div class="curve-gallery">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="0.99" d="M0,128L17.1,133.3C34.3,139,69,149,103,144C137.1,139,171,117,206,128C240,139,274,181,309,218.7C342.9,256,377,288,411,298.7C445.7,309,480,299,514,256C548.6,213,583,139,617,122.7C651.4,107,686,149,720,149.3C754.3,149,789,107,823,106.7C857.1,107,891,149,926,160C960,171,994,149,1029,122.7C1062.9,96,1097,64,1131,90.7C1165.7,117,1200,203,1234,245.3C1268.6,288,1303,288,1337,288C1371.4,288,1406,288,1423,288L1440,288L1440,0L1422.9,0C1405.7,0,1371,0,1337,0C1302.9,0,1269,0,1234,0C1200,0,1166,0,1131,0C1097.1,0,1063,0,1029,0C994.3,0,960,0,926,0C891.4,0,857,0,823,0C788.6,0,754,0,720,0C685.7,0,651,0,617,0C582.9,0,549,0,514,0C480,0,446,0,411,0C377.1,0,343,0,309,0C274.3,0,240,0,206,0C171.4,0,137,0,103,0C68.6,0,34,0,17,0L0,0Z">
+          </path></svg>
+          <h2 class="h2-gallery">Ga<span>llery</span></h2>
+          <div class="box-profile"></div>
+          <div class="box-profile"></div>
+          <div class="box-profile"></div>
+           <div class="box-profile"></div>
+           <div class="box-profile"></div>
+        </div>
+        
+       
+
+        <ul class="controls">
+            <li class="buttons active" data-filter="all">all</li>
+            <li class="buttons" data-filter="ice-cream">P5</li>
+            <li class="buttons" data-filter="chocolate">PJBL</li>
+            <li class="buttons" data-filter="sandwich">Random</li>
+        </ul>
+    
+        <div class="image-container">
+    
+            <a href="images/p51 (1).jpeg" class="image ice-cream">
+                <img src="images/p51 (1).jpeg" alt="">
+            </a>
+            <a href="images/p52.jpeg" class="image ice-cream">
+                <img src="images/p52.jpeg" alt="">
+            </a>
+            <a href="images/p53.jpeg" class="image ice-cream">
+                <img src="images/p53.jpeg" alt="">
+           
+    
+            <a href="gallery/img4.jpg" class="image chocolate">
+              <img src="images/p53.jpeg" alt="">
+            </a>
+            <a href="gallery/img5.jpg" class="image chocolate">
+              <img src="images/p53.jpeg" alt="">
+            </a>
+    
+    
+            <a href="images/classmeet.jpeg" class="image sandwich">
+              <img src="images/classmeet.jpeg" alt="">
+            </a>
+            <a href="images/mlbb.jpeg" class="image sandwich">
+              <img src="images/mlbb.jpeg" alt="">
+            </a>
+            <a href="images/mlbb2.jpeg" class="image sandwich">
+              <img src="images/mlbb2.jpeg" alt="">
+            </a>
+            <a href="images/sico.JPG" class="image sandwich">
+              <img src="images/sico.JPG" alt="">
+            </a>
+            <a href="images/ahmat.JPG" class="image sandwich">
+              <img src="images/ahmat.JPG" alt="">
+            </a>
+            <a href="images/stand.JPG" class="image sandwich">
+              <img src="images/stand.JPG" alt="">
+            </a>
+            <a href="images/univ.jpeg" class="image sandwich">
+              <img src="images/univ.jpeg" alt="">
+            </a>
+            <a href="images/univ2.jpeg" class="image sandwich">
+              <img src="images/univ2.jpeg" alt="">
+            </a>
+            <a href="images/univ3.jpeg" class="image sandwich">
+              <img src="images/univ3.jpeg" alt="">
+            </a>
+            <a href="images/stdtour.jpeg" class="image sandwich">
+              <img src="images/stdtour.jpeg" alt="">
+            </a>
+    
+        </div>
+    
+    </div>
+    
+    
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- c popup js cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        
+       <!-- Svg -->
+       
+
+  </section>
+      <script>
+        ScrollReveal({
+          reset: true,
+          distance: '60px',
+          duration: 3500,
+          delay: 400
+        });
+        ScrollReveal().reveal('.h2-gallery', { delay: 500, origin: 'top' });
+        ScrollReveal().reveal('.image-container', { delay: 500, origin: 'bottom', interval: 400 });
+        ScrollReveal().reveal('.controls', { delay: 500, origin: 'right'});
+
+        </script>
+
+
+
+    <!-- Gallery Section End -->
+
+
+
+      <!-- contact Section start -->
+      <section id="contact" class="contact">
+        <div class="contact main-container">
+          <div class="contact-left">
+           
+            <form
+              action="https://formspree.io/f/mwkgyjeb"
+              method="POST"
+              class="contact-form"
+            >
+              <div>
+                <input type="text" placeholder="Name" name="name" />
+              </div>
+              <div>
+                <input type="email" placeholder="Email" name="email" />
+              </div>
+              <div>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div>
+                <button class="btn-submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+  
+          <div class="contact-right">
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm12 14h-24l4-8h3.135c.385.641.798 1.309 1.232 2h-3.131l-2 4h17.527l-2-4h-3.131c.435-.691.848-1.359 1.232-2h3.136l4 8z"
+                  />
+                </svg>
+              </div>
+              <div class="contact-item-detail">
+                <h4>Address</h4>
+                <p>SMKN 8 SEMARANG</p>
+              </div>
+            </div>
+  
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"
+                  />
+                </svg>
+              </div>
+              <div class="contact-item-detail">
+                <h4>Phone</h4>
+                <p>-</p>
+              </div>
+            </div>
+  
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"
+                  />
+                </svg>
+              </div>
+              <div class="contact-item-detail">
+                <h4>Email</h4>
+                <p>websitepoke@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact Section End -->
+
+       <!-- Footer -->
+  <footer>
+    <div class="container-footer">
+      <div class="row-footer">
+        <div class="col-footer">
+          <h4>Our Member</h4>
+          <ul>
+            <li><a href="https://www.instagram.com/mangzippp?igsh=NGpkZ2l5aGltc2Jw">Fauzi</a></li>
+            <li><a href="https://ww.instagram.com/ds.zkuu/?igsh=eWdpOWJsdDVlMGo%3D">Zakaria</a></li>
+            <li><a href="https://www.instagram.com/fl.faadilll?igsh=MWFvNHlneTNicGIzbg==">Fadil</a></li>
+            <li><a href="https://www.instagram.com/ducyxell_?igsh=NDJndWQxcXdlOGl2">Deviana</a></li>
+            <li><a href="https://www.instagram.com/cloudiella._?igsh=MTYzZndpZmcwNnJieQ==">Laras</a></li>
+            <li><a href="https://www.instagram.com/ylevvarp?igsh=ZDlocm10YWlyYzF6">Velia</a></li>
+          </ul>
+        </div>
+        <div class="col-footer">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="#contact">FAQ</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Message</a></li>
+          </ul>
+        </div>
+        <div class="col-footer">
+          <h4>Feature</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#pembuka">Pembuka</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+           
+          </ul>
+        </div>
+        <div class="col-footer">
+          <h4>Follow us</h4>
+          <div class="social-link">
+            <a href="https://www.instagram.com/pplg3erritory?igsh=aTBnZjR5bjUzcmU3"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+     <!-- My javascript -->
+     <script src="js/main.js"></script>
+     
+</body>
+</html>
